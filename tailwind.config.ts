@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+  			xs: '390px'
+  		},
+      fontFamily: {
+  			sans: ["system-ui", "sans-serif"],
+  			satoshi: ["var(--font-satoshi)", "sans-serif"],
+  			clash: ["var(--font-clash)", "sans-serif"],
+  			integral: 'var(--font-integral-cf)'
+  		},
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
