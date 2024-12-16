@@ -3,6 +3,7 @@ import search from "../assets/Search.png"
 import cart from "../assets/Shopping--cart.png"
 import user from "../assets/User--avatar.png"
 import menu from "../assets/Menu.png"
+import Link from "next/link"
 
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
           <Image src={menu} alt="" className="w-[16px] h-[16px]"/>
         </div>
         <h1 className="w-[65px] h-[30px] absolute top-[20px] sm:left-[687px] xs:left-[24px] font-clash text-[24px] ">Avion</h1> 
-        <Image src={cart} alt="" className=" w-[16px] h-[16px] absolute top-[26px] left-[1364px] "/>
+        <Link href={"cart"}> <Image src={cart} alt="" className=" w-[16px] h-[16px] absolute top-[26px] left-[1364px] "/></Link>
         <Image src={user} alt="" className=" w-[16px] h-[16px] absolute top-[26px] left-[1396px] "/>
         <div className="w-[1386px] absolute top-[70px] left-[28px] border  border-[#0000001A] sm:block xs:hidden"></div>
 

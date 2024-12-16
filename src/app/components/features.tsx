@@ -15,7 +15,7 @@ const Features = () => {
                 <p className="    font-satoshi font-normal  text-[16px] leading-[24px] ">Order before 3pm and get your order the next day as standard</p>
             </div>
         </div>
-
+ 
         <div className="sm:w-[305px] sm:h-auto absolute sm:top-[150px] sm:left-[407px]  sm:p-[48px] flex gap-[10px] bg-[#F9F9F9] xs:w-[342px] xs:h-[196px] xs:top-[362px] xs:left-[24px] xs:py-[24px] xs:px-[36px]  ">
             <div className=" w-full h-auto flex flex-col gap-[12px] text-[#2A254B]">
                 <Image src={check} alt="delivery icon" className=" w-[24px] h-[24px]"/>
@@ -32,8 +32,8 @@ const Features = () => {
             </div>
         </div>
 
-        <div className="sm:w-[305px] sm:h-auto absolute sm:top-[150px] sm:left-[1055px] sm: p-[48px] flex gap-[10px] bg-[#F9F9F9] xs:w-[342px] xs:h-[196px] xs:top-[806px] xs:left-[24px] xs:py-[24px] xs:px-[36px] ">
-            <div className=" w-full h-auto flex flex-col gap-[12px] text-[#2A254B]">
+        <div className="sm:w-[305px] sm:h-auto absolute sm:top-[150px] sm:left-[1055px] sm:p-[48px] flex gap-[10px] bg-[#F9F9F9] xs:w-[342px] xs:h-[196px] xs:top-[806px] xs:left-[24px] xs:py-[24px] xs:px-[36px] ">
+            <div className=" w-full h-auto flex flex-col gap-[12px] text-[#2A254B] ">
                 <Image src={sprout} alt="delivery icon" className=" w-[24px] h-[24px]"/>
                 <h4 className="     font-clash font-normal text-[20px] leading-[28px] ">Recycled packaging</h4>
                 <p className="      font-satoshi font-normal  text-[16px] leading-[24px] ">We use 100% recycled to ensure our footprint is more manageable</p>

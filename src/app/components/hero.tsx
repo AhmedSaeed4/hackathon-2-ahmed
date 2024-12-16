@@ -1,6 +1,7 @@
 import Image from "next/image"
 import heropic from "../assets/Hero Blocks.png"
 import short from "../assets/short.png"
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
                 <p className=" font-satoshi font-normal  sm:text-[18px] sm:leading-[27px] xs:text-[16px] xs:leading-[21.6px] sm:block xs:hidden text-[#5B5676] ">Shop the new Spring 2022 collection today</p>
                 <p className="w-[341px] h-[66px] font-satoshi font-normal  sm:text-[18px] sm:leading-[27px] xs:text-[16px] xs:leading-[21.6px] xs:block sm:hidden text-[#5B5676] ">With our new collection, view over 400 bespoke pieces from homeware through to furniture today</p>
             </div>
-            <button className="sm:w-auto xs:w-[337px] h-auto absolute sm:top-[342px] xs:top-[200px] sm:left-[56px] bg-[#F9F9F9] py-[16px] px-[32px] flex items-center justify-center gap-[10px] hover:bg-slate-200 ">
+            <Link href={'/allproducts'} className="sm:w-auto xs:w-[337px] h-auto absolute sm:top-[342px] xs:top-[200px] sm:left-[56px] bg-[#F9F9F9] py-[16px] px-[32px] flex items-center justify-center gap-[10px] hover:bg-slate-200 ">
                     <p>View collection</p>
-            </button>
+            </Link>
             
             
         </div>
