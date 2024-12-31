@@ -1,5 +1,4 @@
 import Navbar from "./components/NavBar";
-import Hero from "./components/hero";
 import Features from "./components/features";
 import Listings from "./components/Listings";
 import Idea from "./components/Idea";
