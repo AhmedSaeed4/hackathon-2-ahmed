@@ -8,18 +8,26 @@ import Link from "next/link"
 
 const Navbar = () => {
   return (
-    <div className=" sm:w-[1440px] sm:h-[132px] xs:w-[390px] xs:h-[69px] bg-white">
-        <Image src={search} alt="" className=" sm:w-[16px] sm:h-[16px] absolute sm:top-[26px] sm:left-[26px] sm:block xs:hidden "/>
-        <div className="absolute top-[26px] left-[318px] flex gap-[20px] xs:flex sm:hidden">
-          <Image src={search} alt="" className="w-[16px] h-[16px]"/>
-          <Image src={menu} alt="" className="w-[16px] h-[16px]"/>
-        </div>
-        <h1 className="w-[65px] h-[30px] absolute top-[20px] sm:left-[687px] xs:left-[24px] font-clash text-[24px] ">Avion</h1> 
-        <Link href={"cart"}> <Image src={cart} alt="" className=" w-[16px] h-[16px] absolute top-[26px] left-[1364px] "/></Link>
-        <Image src={user} alt="" className=" w-[16px] h-[16px] absolute top-[26px] left-[1396px] "/>
-        <div className="w-[1386px] absolute top-[70px] left-[28px] border  border-[#0000001A] sm:block xs:hidden"></div>
+    <div className=" sm:w-[1440px]   w-[390px] flex flex-col gap-[20px]  px-[28px] pt-[20px] pb-[20px] ">
+        <div className="flex justify-between items-center">
+            <Image src={search} alt="" className=" sm:w-[16px] sm:h-[16px]  sm:block hidden "/>
+            
+            <h1 className="  font-clash text-[24px] ">Avion</h1>
 
-        <ul className="  h-auto w-auto absolute top-[90px] left-[382px] gap-[44px] text-[#726E8D] sm:flex xs:hidden">
+            <div className="  gap-[20px] flex justify-center sm:hidden">
+                <Image src={search} alt="" className="w-[16px] h-[16px]"/>
+                <Image src={menu} alt="" className="w-[16px] h-[16px]"/>
+            </div>
+
+            <div className=" sm:flex gap-[16px] hidden ">
+                <Link href={"cart"}> <Image src={cart} alt="" className=" w-[16px] h-[16px]  "/></Link>
+                <Image src={user} alt="" className=" w-[16px] h-[16px]  "/>
+            </div> 
+        </div>
+
+        <div className=" border  border-[#0000001A] sm:block hidden"></div>
+
+        <ul className=" self-center h-auto w-auto  gap-[44px] text-[#726E8D] sm:flex hidden">
             <li>Plant pots</li>
             <li>Ceramics</li>
             <li>Tables</li>

@@ -4,7 +4,7 @@ import aero from "../assets/aero.png"
 
 const Filters = () => {
   return (
-    <div id="filters" className="w-[1440px] flex py-[20px] sm:py-[8px] pl-[24px] justify-between">
+    <div id="filters" className="sm:w-[1440px] flex py-[20px] sm:py-[8px] pl-[24px] justify-between">
         <div className=" flex sm:hidden gap-[16px] mt">
             <button className=" w-[163px] h-auto flex gap-[8px] justify-center items-center py-[16px] pl-[24px] pr-[32px] bg-[#F9F9F9]">
                 <p className="font-clash font-normal text-[16px] leading-[24px] ">Filters</p>

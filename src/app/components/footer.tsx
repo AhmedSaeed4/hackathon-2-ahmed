@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <div className="w-[390px] sm:w-[1440px] px-6 sm:px-[82px] py-8 bg-[#2A254B] sm:pt-[58px]">
       <div className="flex flex-wrap gap-12 sm:gap-[133px]">
-        {/* Menu Section */}
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Menu</h1>
           <div className="flex flex-col gap-[12px] text-[14px] leading-[19.68px]">
@@ -23,7 +22,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Categories Section */}
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Categories</h1>
           <div className="flex flex-col gap-[12px] text-[14px] leading-[19.68px]">
@@ -45,7 +43,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Company Section */}
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Our Company</h1>
           <div className="flex flex-col gap-[12px] text-[14px] leading-[19.68px]">
@@ -67,7 +64,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Mailing List Section */}
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Join our mailing list</h1>
           <div className="mt-4 flex">
@@ -83,7 +79,6 @@ const Footer = () => {
 
       <hr className="bg-[#4E4D93] my-8" />
 
-      {/* Footer Bottom Section */}
       <div className="flex flex-wrap justify-between items-center text-white gap-4">
         <div>
           <h1>Copyright 2022 Avion LTD</h1>
