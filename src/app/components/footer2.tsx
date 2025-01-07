@@ -11,12 +11,12 @@ import linkedin from "../assets/logos/linkedin.png"
 const Footer2 = () => {
   return (
     <div>
-        <div className="w-[390px] sm:w-[1440px] px-6 sm:px-[82px] py-8 bg-[#2A254B] sm:pt-[58px]">
-      <div className=" flex flex-col sm:flex-row gap-[48px]  sm:gap-[0px] ">
+        <div className=" px-6 sm:px-[82px] py-8 text-nowrap bg-[#2A254B] sm:pt-[58px]">
+      <div className=" flex flex-col lg:flex-row gap-[48px]  sm:gap-[48px] ">
 
         <div className="sm:w-[50%] w-[100%] flex sm:gap-0 gap-[25px]">
          <div className="flex flex-col gap-[16px]">
-            <h1 className="font-clash font-normal text-[36px] leading-[50.4px] text-white  ">Avion</h1>
+            <h1 className="font-clash font-normal text-[36px] leading-[50.4px] text-white  "><Link href="/">Avion</Link></h1>
 
             <div className="flex flex-col gap-[12px] ">
                 <p className="font-satoshi font-normal text-[14px] leading-[18.9px] text-white ">21 New York Street</p>
@@ -74,7 +74,7 @@ const Footer2 = () => {
         </div>
 
         {/* Categories Section */}
-        <div className="text-white w-full sm:w-auto flex-col gap-[12px] sm:mr-[135px] sm:flex hidden ">
+        <div className="text-white w-full sm:w-auto flex-col gap-[12px] sm:mr-[135px] lg:flex hidden ">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Categories</h1>
           <div className="flex flex-col gap-[12px]  text-[14px] leading-[18.9px] font-satoshi font-normal">
             <h1>

@@ -3,12 +3,13 @@ import sideimg from "../assets/dandy chair.png";
 
 const ProductDetails = () => {
   return (
-    <div className="w-[390px] sm:w-[1440px] h-[1055px] sm:h-[759px] ">
-      <div className="px-4 sm:px-8 py-8 sm:py-12">
+    <div className="w-auto h-[1055px] sm:h-[759px] ">
+      <div className="">
         {/* Main Product Section */}
         <div className="flex flex-col sm:flex-row gap-8 items-center">
           <div className="w-full sm:w-1/2 h-auto">
-            <Image src={sideimg} alt="chair" className="" />
+            <div className="bg-[url('/chairfull.jpeg')]  h-[380px] sm:h-[759px]  bg-cover bg-center  "></div>
+            <Image src={sideimg} alt="chair" className=" bg-cover bg-center w-auto hidden " />
           </div>
           <div className="w-full sm:w-1/2 px-4 sm:px-10 py-6 flex flex-col justify-center">
             <div>

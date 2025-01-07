@@ -9,8 +9,9 @@ import linkedin from "../assets/logos/linkedin.png"
 
 const Footer = () => {
   return (
-    <div className="w-[390px] sm:w-[1440px] px-6 sm:px-[82px] py-8 bg-[#2A254B] sm:pt-[58px]">
+    <div className=" px-6 sm:px-[82px] py-8 bg-[#2A254B] sm:pt-[58px]">
       <div className="flex flex-wrap gap-12 sm:gap-[133px]">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-28 ">
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Menu</h1>
           <div className="flex flex-col gap-[12px] text-[14px] leading-[19.68px]">
@@ -63,6 +64,7 @@ const Footer = () => {
             </h1>
           </div>
         </div>
+      </div>
 
         <div className="text-white w-full sm:w-auto flex flex-col gap-[12px]">
           <h1 className="text-lg font-clash font-normal leading-[18.9px]">Join our mailing list</h1>
@@ -70,9 +72,9 @@ const Footer = () => {
             <input
               type="text"
               placeholder="your@email.com"
-              className="w-full sm:w-[300px] h-[48px] p-2 bg-[#FFFFFF26]"
+              className="w-auto  p-2 pr-20 pl-8 bg-[#FFFFFF26]"
             />
-            <button className="w-auto sm:w-[100px] h-[48px] bg-white text-[#2A254B]">Sign up</button>
+            <button className="w-auto  h-[48px] px-[32px]  bg-white text-[#2A254B]">Sign up</button>
           </div>
         </div>
       </div>
