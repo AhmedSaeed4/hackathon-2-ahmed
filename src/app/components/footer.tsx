@@ -72,7 +72,7 @@ const Footer = () => {
             <input
               type="text"
               placeholder="your@email.com"
-              className="w-auto  p-2 sm:pr-20 pr-4 pl-8 bg-[#FFFFFF26]"
+              className="w-auto  p-2 sm:pr-20 pr-2 pl-8 bg-[#FFFFFF26]"
             />
             <button className="w-auto  h-[48px] px-[32px]  bg-white text-[#2A254B]">Sign up</button>
           </div>
