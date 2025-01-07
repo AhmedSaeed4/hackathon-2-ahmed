@@ -16,7 +16,7 @@ const Card = (props:propstype) => {
          <div>
              <div id="product-card" className="   w-auto h-auto flex flex-col  gap-[24px]  ">
             <div id="parent" className="  ">
-            <div className={`${image}   h-[375px]  bg-center  bg-cover block   `}></div>
+            <div className={`${image}   md:h-[375px] h-[200px] sm:h-[275px] bg-center  bg-cover block   `}></div>
                 
             </div>
 
